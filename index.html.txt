@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>احجز جرابك من Coverysta</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff5e0;
+      color: #333;
+      padding: 20px;
+    }
+    .container {
+      max-width: 600px;
+      margin: auto;
+      background: white;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.05);
+    }
+    h1 {
+      color: #222;
+      font-size: 28px;
+    }
+    .highlight {
+      color: #9BCF53;
+      font-weight: bold;
+    }
+    input, textarea, select, button {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border-radius: 12px;
+      border: 1px solid #ccc;
+    }
+    button {
+      background-color: #9BCF53;
+      color: white;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #7eb53c;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>احجز جرابك مع <span class="highlight">Coverysta</span></h1>
+    <p>
+      جرابات موبايل بتصميمات <strong>هادية، فخمة، وشبابية</strong>، لأول مرة في مصر.
+      متوفرة حاليًا للحجز المسبق – الكمية محدودة.
+    </p>
+
+    <form action="https://docs.google.com/forms/d/e/1FAIpQLSe-DXLAXt0PYhf0BrPlTBAJHGNDclzDTSmwreY8pK0gV9_A7Q/formResponse" method="POST" target="_blank">
+      <label>الاسم الكامل:</label>
+      <input name="entry.839062277" type="text" required>
+
+      <label>رقم الموبايل:</label>
+      <input name="entry.2017464283" type="tel" required>
+
+      <label>موديل الموبايل:</label>
+      <input name="entry.79464996" type="text" required>
+
+      <label>العنوان التقريبي:</label>
+      <textarea name="entry.1602425642" rows="3" required></textarea>
+
+      <label>طريقة الدفع:</label>
+      <select name="entry.292072971" required>
+        <option value="عند الاستلام">عند الاستلام</option>
+        <option value="فودافون كاش">فودافون كاش</option>
+        <option value="تحويل بنكي">تحويل بنكي</option>
+      </select>
+
+      <button type="submit">احجز دلوقتي</button>
+    </form>
+  </div>
+</body>
+</html>
